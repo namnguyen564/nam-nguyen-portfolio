@@ -13,12 +13,12 @@ function App() {
   const images = ["/wordle1.png", "/wordle2.png"];
 
   const instanam = [
-    "/instanam1.png",
-    "/instanam2.png",
-    "/instanam4.png",
-    "/instanam3.png",
-    "/instanam6.png",
-    "/instanam5.png",
+    "instanam1.png",
+    "instanam2.png",
+    "instanam4.png",
+    "instanam3.png",
+    "instanam6.png",
+    "instanam5.png",
   ];
 
   const trivial = [
