@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/namsportfolio/static/css/main.ee57a45c.css",
+    "main.js": "/namsportfolio/static/js/main.df8729a1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/namsportfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/namsportfolio/index.html",
+    "main.ee57a45c.css.map": "/namsportfolio/static/css/main.ee57a45c.css.map",
+    "main.df8729a1.js.map": "/namsportfolio/static/js/main.df8729a1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/namsportfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee57a45c.css",
+    "static/js/main.df8729a1.js"
+  ]
+}
