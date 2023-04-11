@@ -160,7 +160,7 @@ function App() {
         style={{
           // display: "flex",
           // justifyContent: "center",
-          // alignItems: "center",
+          // alignItems: "center,
           marginLeft: "66px",
           width: "70%",
           marginTop: "10px",
