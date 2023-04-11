@@ -10,28 +10,33 @@ function App() {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = ["wordle1.png", "wordle2.png"];
+  const images = ["/wordle1.png", "/wordle2.png"];
 
   const instanam = [
-    "instanam1.png",
-    "instanam2.png",
-    "instanam4.png",
-    "instanam3.png",
-    "instanam6.png",
-    "instanam5.png",
+    "/instanam1.png",
+    "/instanam2.png",
+    "/instanam4.png",
+    "/instanam3.png",
+    "/instanam6.png",
+    "/instanam5.png",
   ];
 
   const trivial = [
-    "trivial2.png",
-    "trivial1.png",
-    "trivial.png",
-    "trivial3.png",
-    "trivial4.png",
-    "trivial5.png",
-    "trivial6.png",
+    "/trivial2.png",
+    "/trivial1.png",
+    "/trivial.png",
+    "/trivial3.png",
+    "/trivial4.png",
+    "/trivial5.png",
+    "/trivial6.png",
   ];
 
-  const namify = ["namify2.png", "namify1.png", "namify4.png", "namify3.png"];
+  const namify = [
+    "/namify2.png",
+    "/namify1.png",
+    "/namify4.png",
+    "/namify3.png",
+  ];
 
   function goToNextImage(imageSet) {
     setCurrentImageIndex((prevIndex) => {
@@ -415,7 +420,7 @@ function App() {
 
               <div>
                 <img
-                  src={images[currentImageIndex]}
+                  src={process.env.PUBLIC_URL + images[currentImageIndex]}
                   alt={`Image ${currentImageIndex}`}
                   className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[220px] "
                   id="displayphotos"
@@ -508,7 +513,7 @@ function App() {
 
               <div>
                 <img
-                  src={instanam[currentImageIndex]}
+                  src={process.env.PUBLIC_URL + instanam[currentImageIndex]}
                   alt={`Image ${currentImageIndex}`}
                   className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[200px] "
                   id="displayphotos"
@@ -601,7 +606,7 @@ function App() {
 
               <div>
                 <img
-                  src={trivial[currentImageIndex]}
+                  src={process.env.PUBLIC_URL + trivial[currentImageIndex]}
                   alt={`Image ${currentImageIndex}`}
                   className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[200px] "
                   id="displayphotos"
@@ -690,7 +695,7 @@ function App() {
 
               <div>
                 <img
-                  src={namify[currentImageIndex]}
+                  src={process.env.PUBLIC_URL + namify[currentImageIndex]}
                   alt={`Image ${currentImageIndex}`}
                   className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[200px] "
                   id="displayphotos"
