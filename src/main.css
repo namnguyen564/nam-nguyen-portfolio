@@ -28,6 +28,12 @@ html {
   font-family: "Roboto", sans-serif;
   color: rgb(54, 53, 53);
 }
+@media (min-width: 1468px) {
+  .hey {
+    padding-top: 5%;
+    /* background-color: rgb(33, 25, 25); */
+  }
+}
 
 #description {
   font-family: "Roboto", sans-serif;
@@ -154,7 +160,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 138px;
-    margin-top: 14%;
+    margin-top: 5%;
     background-color: rgb(33, 25, 25);
   }
 }

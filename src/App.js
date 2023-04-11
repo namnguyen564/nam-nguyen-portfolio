@@ -139,7 +139,7 @@ function App() {
         </div>
       </div>
 
-      <header id="title" class="text-8xl pt-[30px] pl-[70px]">
+      <header id="title" class="text-8xl pt-[30px] pl-[70px]" className="hey">
         Hey, I'm
       </header>
       <header id="title" class="text-8xl  pt-[30px] pl-[70px]">
