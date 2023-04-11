@@ -142,12 +142,19 @@ html {
   width: 100%;
 }
 
-@media (min-width: 368px) {
+@media (min-width: 1468px) {
   .projects {
     display: flex;
     justify-content: center;
     gap: 138px;
     margin-top: 20%;
-    background-color: antiquewhite;
+    background-color: rgb(33, 25, 25);
   }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 138px;
+  margin-top: 0%;
 }
