@@ -147,7 +147,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 138px;
-    margin-top: 20%;
+    margin-top: 14%;
     background-color: rgb(33, 25, 25);
   }
 }
@@ -155,6 +155,6 @@ html {
 .projects {
   display: flex;
   justify-content: center;
-  gap: 138px;
+  gap: 139px;
   margin-top: 0%;
 }
