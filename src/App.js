@@ -351,7 +351,7 @@ function App() {
       {/* <h3 className="text-center my-4 text-[20px]" id="latest">
         Latest Projects:
       </h3> */}
-      <div class="flex justify-center  space-x-[138px] mt-[20px]">
+      <div class="flex justify-center  space-x-[138px] mt-[0%]">
         {/* wordle */}
         <div class="flex flex-col items-center justify-center ml-[70px]">
           <h3 class="inline-block text-1xl" id="title">
