@@ -144,7 +144,9 @@ html {
 
 @media (min-width: 368px) {
   .projects {
+    display: flex;
+    justify-content: center;
+    gap: 138px;
     margin-top: 20%;
-    background-color: aqua;
   }
 }
