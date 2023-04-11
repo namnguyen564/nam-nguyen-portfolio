@@ -10,7 +10,7 @@ function App() {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = ["/wordle1.png", "/wordle2.png"];
+  const images = ["wordle1.png", "wordle2.png"];
 
   const instanam = [
     "instanam1.png",
