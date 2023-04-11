@@ -142,8 +142,9 @@ html {
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .mt-0 {
+@media (min-width: 368px) {
+  .projects {
     margin-top: 20%;
+    background-color: aqua;
   }
 }

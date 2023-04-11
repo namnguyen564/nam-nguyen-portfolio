@@ -351,7 +351,10 @@ function App() {
       {/* <h3 className="text-center my-4 text-[20px]" id="latest">
         Latest Projects:
       </h3> */}
-      <div class="flex justify-center  space-x-[138px] mt-[0%]">
+      <div
+        class="flex justify-center  space-x-[138px] mt-[20px]"
+        className="projects"
+      >
         {/* wordle */}
         <div class="flex flex-col items-center justify-center ml-[70px]">
           <h3 class="inline-block text-1xl" id="title">
@@ -441,7 +444,7 @@ function App() {
         )}
         {/* wordle end */}
 
-        <div class="flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center mb-[20px]">
           <h3 class="inline-block text-1xl w-[140px] mb-2" id="title">
             Instanam (Social Media Flask App)
           </h3>
