@@ -369,10 +369,7 @@ function App() {
               wordleModalVisible ? "" : "hidden"
             }`}
           >
-            <div
-              className="modal-content bg-white p-4 rounded-lg absolute"
-              class="contactmodal"
-            >
+            <div className="modal-content bg-white p-4 rounded-lg absolute">
               <span
                 className="close absolute right-2 top-2 text-black hover:text-white cursor-pointer"
                 onClick={() => {
@@ -386,7 +383,6 @@ function App() {
               <h1 className="text-6xl ml-[30px] mt-[20px]" id="boxtitle">
                 Wordle Game
               </h1>
-
               <h3 className="mt-4  ml-[30px] mt-[40px] " id="description">
                 Deployed Site:{" "}
                 <a
@@ -401,13 +397,14 @@ function App() {
               <h3 id="description" class=" ml-[30px] mt-[20px]">
                 Github Repository:{" "}
                 <a
-                  href="  https://namnguyen564.github.io/wordle-ga/"
+                  href="https://github.com/namnguyen564/wordle-ga"
                   class="text-blue-500"
                   target="_blank"
                 >
-                  https://namnguyen564.github.io/wordle-ga/
+                  https://github.com/namnguyen564/wordle-ga
                 </a>
               </h3>
+
               <h3 className="w-[40%] mt-[60px] ml-[30px]" id="description">
                 My HTML, JavaScript, and CSS wordle game is an exciting and
                 challenging game that tests players' word-guessing abilities.
@@ -415,20 +412,19 @@ function App() {
                 word for players to guess on each retry or reload. The
                 application consist of responsive CSS front-end user interface.
               </h3>
+
               <div>
                 <img
                   src={images[currentImageIndex]}
                   alt={`Image ${currentImageIndex}`}
-                  className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[200px] "
+                  className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[220px] "
                   id="displayphotos"
                 />
                 <img
                   src={process.env.PUBLIC_URL + "/previous.png"}
-                  alt={`Image ${currentImageIndex}`}
-                  className=" fixed right-[38%] flex gap-10 mr-[150px] top-[70%] w-[30px]  "
+                  class="fixed right-[38%] flex gap-10 mr-[150px] top-[70%] w-[30px]  "
                   onClick={() => goToPreviousImage(images)}
-                />
-
+                ></img>
                 <img
                   src={process.env.PUBLIC_URL + "/next.png"}
                   class="fixed right-[0%] flex gap-10 mr-[150px] top-[70%] w-[30px]  "
@@ -752,5 +748,8 @@ function App() {
     </div>
   );
 }
+// "homepage": "http://namnguyen564.github.io/namsportfolio",
+// "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",
 
 export default App;
