@@ -297,7 +297,7 @@ html {
 
 @media (min-width: 1468px) {
   #displayphotos {
-    top: 30px;
+    top: 260px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
 }
@@ -306,5 +306,11 @@ html {
   #contactmeword {
     width: 101px;
     font-family: "Roboto", sans-serif;
+  }
+}
+
+@media (min-width: 1468px) {
+  #links {
+    top: 50px;
   }
 }

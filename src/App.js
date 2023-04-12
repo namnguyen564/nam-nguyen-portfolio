@@ -63,7 +63,7 @@ function App() {
         <div class="flex flex-col items-center justify-center">
           <img
             id="contacticon"
-            class="w-[40%] h-[40%] mt-0"
+            class="w-[40%] h-[40%] mt-0 cursor-pointer"
             src={process.env.PUBLIC_URL + "/contact2.png"}
             alt="contact screenshot"
             onClick={() => setContactModalVisible(true)}
@@ -364,7 +364,7 @@ function App() {
           </h3>
 
           <img
-            class="w-[240px] h-[140px] border border-grey-500 mt-[26px]"
+            class="w-[240px] h-[140px] border border-grey-500 mt-[26px] cursor-pointer"
             id="wordle"
             src={process.env.PUBLIC_URL + "/wordle1.png"}
             style={{}}
@@ -427,7 +427,7 @@ function App() {
                 <img
                   src={process.env.PUBLIC_URL + images[currentImageIndex]}
                   alt={`Image ${currentImageIndex}`}
-                  className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[220px] "
+                  className="h-[40] w-[40%] fixed right-0 flex gap-10 mr-[150px] top-[200px] "
                   id="displayphotos"
                 />
                 <img
@@ -451,7 +451,7 @@ function App() {
             Instanam (Social Media Flask App)
           </h3>
           <img
-            class="w-[240px] h-[140px] border border-grey-500 mt-0"
+            class="w-[240px] h-[140px] border border-grey-500 mt-0 cursor-pointer"
             id="instanam"
             src={process.env.PUBLIC_URL + "/instanam1.png"}
             style={{}}
@@ -543,7 +543,7 @@ function App() {
             Trivial (Node.js Trivia Game)
           </h3>
           <img
-            class="w-[240px] h-[140px] border border-grey-500 mt-[35px]"
+            class="w-[240px] h-[140px] border border-grey-500 mt-[35px] cursor-pointer"
             id="trivial"
             src={process.env.PUBLIC_URL + "/trivial1.png"}
             style={{}}
@@ -632,12 +632,12 @@ function App() {
         )}
 
         <div class="flex flex-col items-center justify-center">
-          <h3 class="inline-block text-1xl w-[190px] " id="title">
+          <h3 class="inline-block text-1xl w-[190px]  " id="title">
             Namify (Personalised Spotify Player React App)
           </h3>
           <img
             className="namifyPicture"
-            class="w-[240px] h-[140px] border border-grey-500 mt-[15px] mr-[50px]"
+            class="w-[240px] h-[140px] border border-grey-500 mt-[15px] mr-[50px] cursor-pointer"
             id="namify"
             src={process.env.PUBLIC_URL + "/namify1.png"}
             style={{}}
@@ -697,6 +697,12 @@ function App() {
                 items (songs/artists) to their playlist. With its user-friendly
                 interface and powerful features, my React app is the perfect
                 tool for any music lover looking to enjoy their favorite tunes.
+              </h3>
+
+              <h3 className="w-[40%] mt-[30px] ml-[30px]" id="description">
+                This application will have limited functionality,as I the
+                creator of the project need to authorise your spotify account
+                for use.
               </h3>
 
               <div>
