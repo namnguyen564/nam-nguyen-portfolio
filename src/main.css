@@ -116,9 +116,9 @@ html {
   padding: 1rem;
   border-radius: 0.5rem;
   height: 80%;
-  width: 100%;
-  margin-right: 260px;
-  position: relative;
+  width: 90%;
+  /* margin-right: 260px; */
+  /* position: relative; */
 }
 
 .close {
@@ -196,12 +196,13 @@ html {
   border-radius: 9999px;
 }
 
-/* #contacticon {
-  width: 40%;
-  height: 40%;
-  top: 20px;
+#contacticon {
   font-family: "Roboto", sans-serif;
-} */
+}
+
+#contactmeword {
+  font-family: "Roboto", sans-serif;
+}
 
 @media (min-width: 1468px) {
   .projects {
@@ -270,12 +271,6 @@ html {
 }
 
 @media (min-width: 1468px) {
-  #links {
-    top: 30px;
-  }
-}
-
-@media (min-width: 1468px) {
   #wordle {
     height: 230px;
     width: 450px;
@@ -297,5 +292,19 @@ html {
   #namify {
     height: 230px;
     width: 450px;
+  }
+}
+
+@media (min-width: 1468px) {
+  #displayphotos {
+    top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 1468px) {
+  #contactmeword {
+    width: 100px;
+    font-family: "Roboto", sans-serif;
   }
 }

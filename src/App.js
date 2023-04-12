@@ -68,7 +68,7 @@ function App() {
             alt="contact screenshot"
             onClick={() => setContactModalVisible(true)}
           />
-          <h3 class="inline-block text-1xl" id="contacticon">
+          <h3 class="inline-block text-1xl" id="contactmeword">
             Contact Me
           </h3>
         </div>
