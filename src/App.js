@@ -139,7 +139,7 @@ function App() {
         </div>
       </div>
 
-      <header id="hey" class="text-8xl pt-[30px] pl-[70px]">
+      <header class="text-8xl pt-[30px] pl-[70px]" className="hey">
         Hey, I'm
       </header>
       <header id="hey2" class="text-8xl  pt-[0px] pl-[70px]">

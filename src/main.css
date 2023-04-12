@@ -169,12 +169,12 @@ html {
   color: rgb(54, 53, 53);
 }
 
-#hey {
+.hey {
   font-family: "Roboto", sans-serif;
   font-size: 6rem;
   color: rgb(54, 53, 53);
   /* padding-top: 30px; */
-  /* margin-left: 70px; */
+  margin-left: 70px;
 }
 
 #hey2 {
@@ -207,18 +207,19 @@ html {
     display: flex;
     justify-content: center;
     gap: 138px;
-    margin-top: 5%;
+    margin-top: 7%;
     background-color: rgb(255, 255, 255);
   }
 }
 
-@media (min-width: 1500px) {
-  #hey {
+@media (min-width: 1468px) {
+  .hey {
     font-family: "Roboto", sans-serif;
-    padding-left: 70px;
     font-size: 6rem;
-    margin-top: 5%;
+    color: rgb(54, 53, 53);
+    /* padding-top: 30px; */
     margin-left: 70px;
+    margin-top: 8%;
   }
 }
 
