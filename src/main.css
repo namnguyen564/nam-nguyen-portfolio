@@ -213,7 +213,7 @@ html {
 }
 
 @media (min-width: 1468px) {
-  .hey {
+  #hey {
     font-family: "Roboto", sans-serif;
     padding-left: 70px;
     font-size: 6rem;
