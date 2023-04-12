@@ -203,6 +203,9 @@ html {
 #contactmeword {
   font-family: "Roboto", sans-serif;
 }
+#linkedinword {
+  font-family: "Roboto", sans-serif;
+}
 
 @media (min-width: 1468px) {
   .projects {
@@ -312,5 +315,12 @@ html {
 @media (min-width: 1468px) {
   #links {
     top: 50px;
+  }
+}
+
+@media (min-width: 1468px) {
+  #linkedinmeword {
+    width: 101px;
+    font-family: "Roboto", sans-serif;
   }
 }

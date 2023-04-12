@@ -111,7 +111,7 @@ function App() {
               alt="linkedin screenshot"
             />
           </a>
-          <h3 class="inline-block text-1xl" id="linkedinicon">
+          <h3 class="inline-block text-1xl" id="linkedinword">
             Linked In
           </h3>
         </div>
