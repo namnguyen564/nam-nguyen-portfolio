@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 body {
   height: 100vh;
+  overflow: hidden;
 }
 html {
   background-color: rgb(247, 255, 255);
@@ -241,5 +242,35 @@ html {
     height: 40%;
 
     font-family: "Roboto", sans-serif;
+  }
+}
+@media (min-width: 1468px) {
+  #resumeicon {
+    width: 20%;
+    height: 40%;
+
+    font-family: "Roboto", sans-serif;
+  }
+}
+@media (min-width: 1468px) {
+  #linkedinicon {
+    width: 20%;
+    height: 40%;
+
+    font-family: "Roboto", sans-serif;
+  }
+}
+@media (min-width: 1468px) {
+  #githubicon {
+    width: 20%;
+    height: 40%;
+
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media (min-width: 1468px) {
+  #links {
+    top: 30px;
   }
 }

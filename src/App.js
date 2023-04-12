@@ -57,8 +57,8 @@ function App() {
   return (
     <div>
       <div
-        id="links"
         class="fixed right-0 flex flex-row items-end gap-10 mt-[30px] pl-[700px]"
+        id="links"
       >
         <div class="flex flex-col items-center justify-center">
           <img
@@ -84,8 +84,8 @@ function App() {
             class="flex flex-col items-center justify-center"
           >
             <img
-              id="resumeicon"
               class="w-[40%] h-[40%] mt-0"
+              id="resumeicon"
               src={process.env.PUBLIC_URL + "/resume1.png"}
               alt="resume screenshot"
             />
@@ -105,8 +105,8 @@ function App() {
             class="flex flex-col items-center justify-center"
           >
             <img
-              id="linkedinicon"
               class="w-[40%] h-[40%] mt-0 cursor-pointer"
+              id="linkedinicon"
               src={process.env.PUBLIC_URL + "/linkedin1.png"}
               alt="linkedin screenshot"
             />
@@ -127,8 +127,8 @@ function App() {
             class="flex flex-col items-center justify-center"
           >
             <img
-              id="githubicon"
               class="w-[40%] h-[40%] mt-0"
+              id="githubicon"
               src={process.env.PUBLIC_URL + "/github1.png"}
               alt="github screenshot"
             />
