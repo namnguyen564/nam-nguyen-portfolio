@@ -139,10 +139,10 @@ function App() {
         </div>
       </div>
 
-      <header id="title" class="text-8xl pt-[30px] pl-[70px]" className="hey">
+      <header id="hey" class="text-8xl pt-[30px] pl-[70px]">
         Hey, I'm
       </header>
-      <header id="title" class="text-8xl  pt-[30px] pl-[70px]">
+      <header id="hey2" class="text-8xl  pt-[0px] pl-[70px]">
         Nam Nguyen
       </header>
       <h2 class="text-4xl  pt-[0px] pl-[70px]" id="webd">
@@ -150,7 +150,9 @@ function App() {
       </h2>
 
       <img
+        id="profilepic"
         class="fixed right-0 flex gap-10 mr-20 top-[140px] rounded-full "
+        // className="profilepic"
         src={process.env.PUBLIC_URL + "/photo2.jpeg"}
         style={{ height: "350px", width: "350px" }}
       ></img>
@@ -635,6 +637,7 @@ function App() {
           </h3>
           <img
             id="namify"
+            className="namifyPicture"
             class="w-[240px] h-[140px] border border-grey-500 mt-[15px] mr-[50px]"
             src={process.env.PUBLIC_URL + "/namify1.png"}
             style={{}}

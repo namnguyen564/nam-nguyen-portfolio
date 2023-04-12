@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
-
+body {
+  height: 100vh;
+}
 html {
   background-color: rgb(247, 255, 255);
 }
@@ -28,21 +30,28 @@ html {
   font-family: "Roboto", sans-serif;
   color: rgb(54, 53, 53);
 }
-@media (min-width: 1468px) {
+
+/* .text-8xl {
+  font-size: 6rem;
+}
+
+.pt-30px {
+  padding-top: 30px;
+}
+
+.pl-70px {
+  padding-left: 70px;
+} */
+/* @media (min-width: 1468px) {
   .hey {
     padding-top: 5%;
-    /* background-color: rgb(33, 25, 25); */
   }
-}
+} */
 
 #description {
   font-family: "Roboto", sans-serif;
 }
 #latest {
-  font-family: "Roboto", sans-serif;
-}
-
-#contacticon {
   font-family: "Roboto", sans-serif;
 }
 
@@ -152,15 +161,84 @@ html {
   display: flex;
   justify-content: center;
   gap: 139px;
-  margin-top: 0%;
+  /* margin-bottom: 10%; */
 }
+
+#namnguyen {
+  font-family: "Roboto", sans-serif;
+  color: rgb(54, 53, 53);
+}
+
+#hey {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  color: rgb(54, 53, 53);
+  /* padding-top: 30px; */
+  /* margin-left: 70px; */
+}
+
+#hey2 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(54, 53, 53);
+  font-size: 6rem;
+  /* margin-left: 70px; */
+  padding-bottom: 0px;
+}
+
+#profilepic {
+  position: fixed;
+  right: 0;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 20px;
+  top: 140px;
+  border-radius: 9999px;
+}
+
+/* #contacticon {
+  width: 40%;
+  height: 40%;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+} */
 
 @media (min-width: 1468px) {
   .projects {
     display: flex;
     justify-content: center;
     gap: 138px;
+    /* margin-top: 5%; */
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 1468px) {
+  .hey {
+    font-family: "Roboto", sans-serif;
+    padding-left: 70px;
+    font-size: 6rem;
     margin-top: 5%;
-    background-color: rgb(33, 25, 25);
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 1468px) {
+  #profilepic {
+    position: fixed;
+    right: 0;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+    top: 140px;
+    border-radius: 9999px;
+  }
+}
+
+@media (min-width: 1468px) {
+  #contacticon {
+    width: 20%;
+    height: 40%;
+
+    /* font-family: "Roboto", sans-serif; */
   }
 }
