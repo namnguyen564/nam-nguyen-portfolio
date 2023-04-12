@@ -687,7 +687,7 @@ function App() {
                 </a>
               </h3>
 
-              <h3 className="w-[40%] mt-[60px] ml-[30px]" id="description">
+              <h3 className="w-[40%] mt-[20px] ml-[30px]" id="description">
                 My React app is a music player that leverages Spotify's API,
                 enabling users to log in with their Spotify accounts and access
                 a vast library of music. The app offers an intuitive search
@@ -702,7 +702,8 @@ function App() {
               <h3 className="w-[40%] mt-[30px] ml-[30px]" id="description">
                 This application will have limited functionality,as I the
                 creator of the project need to authorise your spotify account
-                for use.
+                for use. Please email me your spotify account email if you would
+                like to test out this application!
               </h3>
 
               <div>
