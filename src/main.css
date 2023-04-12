@@ -207,12 +207,12 @@ html {
     display: flex;
     justify-content: center;
     gap: 138px;
-    /* margin-top: 5%; */
+    margin-top: 5%;
     background-color: rgb(255, 255, 255);
   }
 }
 
-@media (min-width: 1468px) {
+@media (min-width: 1500px) {
   #hey {
     font-family: "Roboto", sans-serif;
     padding-left: 70px;
@@ -239,6 +239,6 @@ html {
     width: 20%;
     height: 40%;
 
-    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", sans-serif;
   }
 }
