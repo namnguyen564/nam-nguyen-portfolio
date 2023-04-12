@@ -208,7 +208,7 @@ html {
     display: flex;
     justify-content: center;
     gap: 138px;
-    margin-top: 7%;
+    margin-top: 3%;
     background-color: rgb(255, 255, 255);
   }
 }
@@ -230,8 +230,8 @@ html {
     right: 0;
     display: flex;
     margin-left: 10px;
-    margin-right: 20px;
-    top: 140px;
+    margin-right: 90px;
+    top: 240px;
     border-radius: 9999px;
   }
 }
@@ -272,5 +272,30 @@ html {
 @media (min-width: 1468px) {
   #links {
     top: 30px;
+  }
+}
+
+@media (min-width: 1468px) {
+  #wordle {
+    height: 230px;
+    width: 450px;
+  }
+}
+@media (min-width: 1468px) {
+  #instanam {
+    height: 230px;
+    width: 450px;
+  }
+}
+@media (min-width: 1468px) {
+  #trivial {
+    height: 230px;
+    width: 450px;
+  }
+}
+@media (min-width: 1468px) {
+  #namify {
+    height: 230px;
+    width: 450px;
   }
 }

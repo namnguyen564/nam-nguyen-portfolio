@@ -57,7 +57,7 @@ function App() {
   return (
     <div>
       <div
-        class="fixed right-0 flex flex-row items-end gap-10 mt-[30px] pl-[700px]"
+        class="fixed right-0 flex flex-row items-end  mt-[30px] pl-[700px]"
         id="links"
       >
         <div class="flex flex-col items-center justify-center">
@@ -364,8 +364,8 @@ function App() {
           </h3>
 
           <img
-            id="wordle"
             class="w-[240px] h-[140px] border border-grey-500 mt-[26px]"
+            id="wordle"
             src={process.env.PUBLIC_URL + "/wordle1.png"}
             style={{}}
             alt="Wordle game screenshot"
@@ -451,8 +451,8 @@ function App() {
             Instanam (Social Media Flask App)
           </h3>
           <img
-            id="instanam"
             class="w-[240px] h-[140px] border border-grey-500 mt-0"
+            id="instanam"
             src={process.env.PUBLIC_URL + "/instanam1.png"}
             style={{}}
             alt="instanam screenshot"
@@ -543,8 +543,8 @@ function App() {
             Trivial (Node.js Trivia Game)
           </h3>
           <img
-            id="trivial"
             class="w-[240px] h-[140px] border border-grey-500 mt-[35px]"
+            id="trivial"
             src={process.env.PUBLIC_URL + "/trivial1.png"}
             style={{}}
             alt="trivialscreenshot"
@@ -636,9 +636,9 @@ function App() {
             Namify (Personalised Spotify Player React App)
           </h3>
           <img
-            id="namify"
             className="namifyPicture"
             class="w-[240px] h-[140px] border border-grey-500 mt-[15px] mr-[50px]"
+            id="namify"
             src={process.env.PUBLIC_URL + "/namify1.png"}
             style={{}}
             alt="namifyscreenshot"
