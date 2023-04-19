@@ -146,7 +146,7 @@ function App() {
         Nam Nguyen
       </header>
       <h2 class="text-4xl  pt-[0px] pl-[70px]" id="webd">
-        Web Designer
+        Software Developer
       </h2>
 
       <img
